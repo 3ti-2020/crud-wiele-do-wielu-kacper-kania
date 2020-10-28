@@ -9,10 +9,9 @@
 </head>
 <body>
         <div class="calo">
-            <div class="imie"></div>
             <div class="a">
             <?php
-                    $conn = new mysqli("localhost", "root", "", "zdalne");
+                    $conn = new mysqli("remotemysql.com", "fdvZGG67Fb", "liGhckjUa1", "fdvZGG67Fb");
                     $sql = $conn->query("SELECT id_autor_tytul, nazwisko, nazwa from lib_autor, lib_tytul, lib_autor_tytul WHERE lib_autor.id_autor = lib_autor_tytul.id_autor AND lib_tytul.id_tytul = lib_autor_tytul.id_tytul");
         
                     echo("<table border=1>");
