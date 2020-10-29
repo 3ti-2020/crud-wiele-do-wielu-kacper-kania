@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="calo">
-            <div class="a">
+    <div class="calo">
+        <div class="a">
+            <h1>Kacper Kania gr.1</h1>
+        </div>
+        <div class="b">
             <?php
                     $conn = new mysqli("remotemysql.com", "fdvZGG67Fb", "liGhckjUa1", "fdvZGG67Fb");
                     $sql = $conn->query("SELECT id_autor_tytul, nazwisko, nazwa from lib_autor, lib_tytul, lib_autor_tytul WHERE lib_autor.id_autor = lib_autor_tytul.id_autor AND lib_tytul.id_tytul = lib_autor_tytul.id_tytul");
@@ -27,15 +30,14 @@
                     }
                     echo("</table>");
                     ?>
-            </div>
-            <div class="b">
-                    <form action="insert.php" method="post">
-                        <input type="text" placeholder = "id autora">
-                        <input type="text" placeholder = "id książki">
-                        <input type="submit" value="POST">
-                    </form>
-            </div>
-            
         </div>
+        <div class="c">
+            <form action="insert.php" method="post">
+                <input type="text" placeholder = "id autora">
+                <input type="text" placeholder = "id książki">
+                <input type="submit" value="POST">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
