@@ -1,0 +1,33 @@
+.calo{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 50% 20%;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+  
+}
+.a{ 
+    grid-area: a;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    grid-area: b;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    grid-area: c;
+    display: flex;
+    background: lightgreen;
+    justify-content: center;
+    align-items: center;
+   
+}
