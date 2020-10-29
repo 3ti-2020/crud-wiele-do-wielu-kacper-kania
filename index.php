@@ -33,8 +33,8 @@
         </div>
         <div class="c">
             <form action="insert.php" method="post">
-                <input type="text" placeholder = "id autora">
-                <input type="text" placeholder = "id książki">
+                <input type="text" placeholder = "autor">
+                <input type="text" placeholder = "ksiazka">
                 <input type="submit" value="POST">
             </form>
         </div>
