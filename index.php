@@ -10,7 +10,7 @@
 <body>
     <div class="calo">
         <div class="a">
-            <h1>Kacper Kania gr.1</h1>
+            <h1>Kacper Kania grupa 1</h1>
         </div>
         <div class="b">
             <?php
