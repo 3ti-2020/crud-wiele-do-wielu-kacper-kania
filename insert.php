@@ -42,6 +42,6 @@ $sql2="INSERT INTO `lib_tytul`(`nazwa`) VALUES ('$tytul')";
 
       $conn->close();
 
-      //header('Location: https://kacper-kania.herokuapp.com/');
+      header('Location: https://kacper-kania.herokuapp.com/');
 
 ?>
