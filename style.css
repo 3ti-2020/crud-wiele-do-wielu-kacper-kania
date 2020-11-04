@@ -1,28 +1,30 @@
 .calo{
     height: 100vh;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 10% 90%;
     grid-template-rows: 30% 50% 20%;
     grid-template-areas: 
-    "a"
-    "b"
-    "c";
+    "a b"
+    "c c"
+    "d d";
   
-}
-.a{ 
-    grid-area: a;
-    background: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .b{
     grid-area: b;
-    background: lightcoral;
+    background: lightskyblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.a{ 
+    grid-area: a;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .c{
     grid-area: c;
     display: flex;
@@ -30,4 +32,31 @@
     justify-content: center;
     align-items: center;
    
+}
+.d{
+    grid-area: d;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: violet;
+    list-style-type: none;
+}
+.kar{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.obr{
+    height: 100px;
+    width: 100px;
 }
