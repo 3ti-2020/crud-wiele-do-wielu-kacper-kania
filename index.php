@@ -26,7 +26,7 @@
                     echo("<tr>
                     <th>id</th>
                     <th>nazwisko</th>
-                    <th>nazwa</th>
+                    <th>tytul</th>
                     </tr>");
                     while($wiersz = $sql->fetch_assoc()){
                         echo("<tr>");
@@ -38,8 +38,8 @@
         </div>
         <div class="d">
             <form action="insert.php" method="post">
-                <input type="text" placeholder = "id autora">
-                <input type="text" placeholder = "id książki">
+                <input type="text" name="nazwisko" placeholder = "nazwisko">
+                <input type="text" name="nazwa" placeholder = "tytul">
                 <input type="submit" value="POST">
             </form>
         </div>
