@@ -9,12 +9,17 @@
 </head>
 <body>
     <div class="calo">
-        <div class="a">
-            <h1>Kacper Kania grupa1</h1>
-        </div>
         <div class="b">
+            <h1>Kacper Kania grupa 1</h1>
+            <ul>
+                <li class="link"><a class="kar" href="https://kartka.herokuapp.com/#home">karta sklepowa</a></li>
+            </ul>
+        </div>
+        
+        <div class="c">
             <?php
                     $conn = new mysqli("remotemysql.com", "fdvZGG67Fb", "liGhckjUa1", "fdvZGG67Fb");
+                    //$conn = new mysqli("localhost", "root", "", "zdalne");
                     $sql = $conn->query("SELECT id_autor_tytul, nazwisko, nazwa from lib_autor, lib_tytul, lib_autor_tytul WHERE lib_autor.id_autor = lib_autor_tytul.id_autor AND lib_tytul.id_tytul = lib_autor_tytul.id_tytul");
         
                     echo("<table border=1>");
@@ -31,12 +36,15 @@
                     echo("</table>");
                     ?>
         </div>
-        <div class="c">
+        <div class="d">
             <form action="insert.php" method="post">
-                <input type="text" placeholder = "autor">
-                <input type="text" placeholder = "ksiazka">
+                <input type="text" placeholder = "id autora">
+                <input type="text" placeholder = "id książki">
                 <input type="submit" value="POST">
             </form>
+        </div>
+        <div class="a">
+            <a class="" href="https://github.com/3ti-2020/crud-wiele-do-wielu-kacper-kania"><img class="obr" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="tekst alternatywny"></a>
         </div>
     </div>
 </body>
