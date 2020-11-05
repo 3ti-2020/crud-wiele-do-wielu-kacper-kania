@@ -13,6 +13,7 @@
             <h1>Kacper Kania grupa 1</h1>
             <ul>
                 <li class="link"><a class="kar" href="https://kartka.herokuapp.com/#home">karta sklepowa</a></li>
+                <li class="link"><a class="kar" href="#">logowanie</a></li>
             </ul>
         </div>
         

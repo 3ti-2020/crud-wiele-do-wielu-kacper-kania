@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .calo{
     height: 100vh;
     display: grid;
@@ -20,8 +25,8 @@
     grid-area: a;
     background: lightskyblue;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    
 }
 
 
@@ -50,6 +55,7 @@
     color: white;
     background: violet;
     list-style-type: none;
+    margin: 15px;
 }
 .kar{
     list-style-type: none;
@@ -59,4 +65,7 @@
 .obr{
     height: 100px;
     width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
 }
