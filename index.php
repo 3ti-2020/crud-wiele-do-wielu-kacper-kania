@@ -36,6 +36,7 @@
                     }
                     echo("</table>");
                     ?>
+                    <button type="button" class="colorBtn">click</button>
         </div>
         <div class="d">
             <form action="insert.php" method="post">
@@ -48,5 +49,6 @@
             <a class="" href="https://github.com/3ti-2020/crud-wiele-do-wielu-kacper-kania"><img class="obr" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="tekst alternatywny"></a>
         </div>
     </div>
+    <script src="java.js"></script>
 </body>
 </html>
