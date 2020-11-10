@@ -80,7 +80,7 @@
                         echo("<h1 id='zal'>NIE ZALOGOWANO</h1>");
                         echo("        
                         <form action='index.php' method='POST' class='formu' id='form'>
-                        LOGIN: <input type='text' name='login'>
+                        LOGIN: <input type='text' name='login' placeholder='a'>
                         HASLO: <input type='text' name='haslo' placeholder='a'>
                         <input type='submit' value='zaloguj'>
                     </form>");
