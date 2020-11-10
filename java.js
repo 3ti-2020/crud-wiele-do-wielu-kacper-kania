@@ -1,5 +1,5 @@
 const colorBtn = document.querySelector('.colorBtn');
-const bodyBcg = document.querySelector('.c');
+const bodyBcg = document.querySelector('.d');
 
 const colors = ['yellow', 'red', 'green', '#3b5998'];
 

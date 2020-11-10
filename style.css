@@ -6,20 +6,13 @@ body{
 .calo{
     height: 100vh;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10% 75% 15%;
     grid-template-rows: 30% 50% 20%;
     grid-template-areas: 
-    "a b"
-    "c c"
-    "d d";
+    "a b b"
+    "d d d"
+    "e e e";
   
-}
-.b{
-    grid-area: b;
-    background: lightskyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .a{ 
     grid-area: a;
@@ -28,23 +21,36 @@ body{
     justify-content: start;
     
 }
-
-
-.c{
-    grid-area: c;
+.b{
+    grid-area: b;
+    background: lightskyblue;
     display: flex;
-    background: lightgreen;
     justify-content: center;
     align-items: center;
+}
+.c{
+    grid-area: c;
+    display: block;
+    background: lightskyblue;
+    
    
 }
 .d{
     grid-area: d;
     background: lightcoral;
     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.e{
+    grid-area: e;
+    background: lightgreen;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .link{
     text-decoration: none;
     display: flex;
