@@ -75,6 +75,22 @@
                         echo("</tr>");
                     }
                     echo("</table>");
+
+                    $sql1 = $conn->query("SELECT * FROM wypozycz");
+                    echo("<table border=1>");
+                    echo("<tr>
+                    <th>id</th>
+                    <th>uzytkownik</th>
+                    <th>tytul</th>
+                    <th>data</th>
+                    </tr>");
+                    while($wiersz1 = $sql1->fetch_assoc()){
+                        echo("<tr>");
+                        echo("<td>".$wiersz1['id']."</td><td>".$wiersz1['uzytkownik']."</td><td>".$wiersz1['tytul']."</td><td>".$wiersz1['Data']."</td>");
+                        echo("</tr>");
+                    }
+                    echo("</table>");
+
                     echo("<a href='index.php?akcja=wyloguj'><h1 class='wylog' id='wylog'>WYLOGUJ</h1></a>");
                     }else{
                         echo("<h1 id='zal'>NIE ZALOGOWANO</h1>");
