@@ -17,7 +17,7 @@
             <ul>
                 <li class="link"><a class="kar" href="https://kartka.herokuapp.com/#home">karta sklepowa</a></li>
                 <li class="link"><a class="kar" href="https://egzamin-kacper.herokuapp.com/">egzamin</a></li>
-                <li class="link"><a class="kar" href="https://zdalne.herokuapp.com/">egzamin</a></li>
+                <li class="link"><a class="kar" href="https://zdalne.herokuapp.com/">grafika</a></li>
                 
             </ul>
         </div>
